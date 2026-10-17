@@ -55,7 +55,7 @@ flowchart LR
 After each deletion, IBM Granite (the same Granite model and llama.cpp + IBM zDNN loader as the Loan Approval lab) writes a plain-language explanation for the patient. Small language models can get facts wrong; in our first test Granite wrote that the data was "not deleted". So ZeroTrace never lets the model touch facts:
 
 1. Granite gets **no numbers**, only the task and two example explanations.
-2. Every draft is **fact-checked**: drafts containing numbers or phrases such as "not deleted", "still" or "reduced" are rejected (up to 3 attempts).
+2. Every draft is **fact-checked**: drafts containing numbers, contradictions ("not deleted", "still", "reduced") or invented technical claims ("layers", "complex process") are rejected, and a draft must state that the data was removed (up to 3 attempts). We tightened this after the first guardrail let through "a complex process requiring multiple layers in training"; in the final run, Granite's first draft was rejected and its second passed.
 3. If every draft fails, a **pre-approved explanation** is used, and the letter says so.
 4. Certificate ID, date and fingerprint are inserted **by code from the signed certificate**.
 
@@ -68,7 +68,7 @@ Measured on our LinuxONE Community Cloud instance:
 ![Platform check: s390x, IBM z17, CPACF yes, NNPA yes, SHA-256 4336 MB/s](platform_check.png)
 
 - **IBM z17 (machine type 9175).** The whole pipeline (training, audit, unlearning, certificates, dashboard) runs on it.
-- **CPACF on-chip cryptography:** SHA-256, the hash behind every model fingerprint and certificate, runs at **4,336 MB/s**.
+- **CPACF on-chip cryptography** is present, and SHA-256, the hash behind every model fingerprint and certificate, runs at **4,336 MB/s**, far above typical software-only speed and consistent with CPACF acceleration.
 - **Telum II on-chip AI accelerator (NNPA):** using IBM Snap ML, a ZeroTrace slice model was compiled to `zdnn_tensors` and scored **5,000 patients in 36.2 ms** on the accelerator.
 
 ![Snap ML on Telum II: inference engine zdnn_tensors, 5000 patients in 36.2 ms](telum_snapml.png)
@@ -103,13 +103,14 @@ Both prerequisite labs (Predictive AI hybrid multi-model, and Predictive AI + Ge
 - The patient data is **synthetic**; no real records were used. The method is unchanged on real data.
 - The model must be **built in slices from the start**; an existing single model cannot be retrofitted.
 - The audit is **strong statistical evidence**, not a mathematical guarantee. The retrained slice itself never saw the patient, so their influence is removed by design.
-- Tested with random forests. Neural networks and larger slice counts are next.
+- Tested with random forests. Fully grown trees memorize their training rows, which is exactly the privacy risk the audit measures; models that memorize less are harder to detect, which is why ZeroTrace also retrains the slice so removal holds by design.
+- The hash chain exposes any edited certificate, but the issuer could rebuild the whole chain. Production would sign each certificate with keys held in an IBM Z hardware security module.
 
 ## Next steps
 
 - Extend to neural networks and more slices for faster forgetting.
 - Move the full audit pipeline onto Telum II (one slice model already runs there via Snap ML).
-- Protect the ledger with IBM Secure Execution for Linux.
+- Sign every certificate with IBM Z hardware security module keys, so even the issuer cannot forge or rebuild the chain.
 - Pilot on a real, consented dataset.
 
 ## Open-source resources
