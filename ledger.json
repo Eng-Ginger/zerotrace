@@ -1,0 +1,640 @@
+[
+  {
+    "certificate_id": "FMN-00001",
+    "patient_id": "P04821",
+    "issued_at_utc": "2026-10-17T08:19:57+00:00",
+    "slice_retrained": 1,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.2,
+    "audit_before": {
+      "patient_id": "P04821",
+      "detected": true,
+      "memory_score": 4.12,
+      "stands_out_vs_outsiders_pct": 99.7,
+      "suspected_slice": 1
+    },
+    "audit_after": {
+      "patient_id": "P04821",
+      "detected": false,
+      "memory_score": 2.13,
+      "stands_out_vs_outsiders_pct": 97.56,
+      "suspected_slice": 0
+    },
+    "accuracy_before": 0.7284,
+    "accuracy_after": 0.7298,
+    "model_hash_before": "25660fe1d671a99cad4abed7eac353824179ff4867b4e7d5a765418809ec26cd",
+    "model_hash_after": "77e88653ffa57784e9802045b5ada1d948596ee95298d1466e6b63144d029b81",
+    "previous_certificate_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "certificate_hash": "23c595244ce36c61e25ae393950c1ff76b7ba4a9bfe400d9e4e6f645924531c0"
+  },
+  {
+    "certificate_id": "FMN-00002",
+    "patient_id": "P17889",
+    "issued_at_utc": "2026-10-17T08:20:10+00:00",
+    "slice_retrained": 9,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.182,
+    "audit_before": {
+      "patient_id": "P17889",
+      "detected": true,
+      "memory_score": 7.45,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 9
+    },
+    "audit_after": {
+      "patient_id": "P17889",
+      "detected": false,
+      "memory_score": 2.04,
+      "stands_out_vs_outsiders_pct": 97.06,
+      "suspected_slice": 6
+    },
+    "accuracy_before": 0.7298,
+    "accuracy_after": 0.73,
+    "model_hash_before": "77e88653ffa57784e9802045b5ada1d948596ee95298d1466e6b63144d029b81",
+    "model_hash_after": "f60d14c50ce8349deedc2c48f6be218ccc5e48f15cb4f2d1c636a3c0343b32f9",
+    "previous_certificate_hash": "23c595244ce36c61e25ae393950c1ff76b7ba4a9bfe400d9e4e6f645924531c0",
+    "certificate_hash": "1264f65c62650cac1ce4d33126b633ed6a92677e6e050cf1310f13af596d0396"
+  },
+  {
+    "certificate_id": "FMN-00003",
+    "patient_id": "P03651",
+    "issued_at_utc": "2026-10-17T08:20:11+00:00",
+    "slice_retrained": 1,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.186,
+    "audit_before": {
+      "patient_id": "P03651",
+      "detected": true,
+      "memory_score": 6.03,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 1
+    },
+    "audit_after": {
+      "patient_id": "P03651",
+      "detected": false,
+      "memory_score": 0.76,
+      "stands_out_vs_outsiders_pct": 27.36,
+      "suspected_slice": 9
+    },
+    "accuracy_before": 0.73,
+    "accuracy_after": 0.7288,
+    "model_hash_before": "f60d14c50ce8349deedc2c48f6be218ccc5e48f15cb4f2d1c636a3c0343b32f9",
+    "model_hash_after": "ff573f8cf4750f7861f79c2df16be69323b6587243e390f0e67137f0c6176793",
+    "previous_certificate_hash": "1264f65c62650cac1ce4d33126b633ed6a92677e6e050cf1310f13af596d0396",
+    "certificate_hash": "6c10f5b8326c7befbac0e593cfd16fd73690b8e5ef4fd9229b141c798d2ba69c"
+  },
+  {
+    "certificate_id": "FMN-00004",
+    "patient_id": "P13106",
+    "issued_at_utc": "2026-10-17T08:20:12+00:00",
+    "slice_retrained": 6,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.181,
+    "audit_before": {
+      "patient_id": "P13106",
+      "detected": true,
+      "memory_score": 6.38,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 6
+    },
+    "audit_after": {
+      "patient_id": "P13106",
+      "detected": false,
+      "memory_score": 0.47,
+      "stands_out_vs_outsiders_pct": 3.52,
+      "suspected_slice": 1
+    },
+    "accuracy_before": 0.7288,
+    "accuracy_after": 0.7284,
+    "model_hash_before": "ff573f8cf4750f7861f79c2df16be69323b6587243e390f0e67137f0c6176793",
+    "model_hash_after": "6b53e37d0e63cabf054d0d748732aab1b32597d45de62d200414abec6b0ab41b",
+    "previous_certificate_hash": "6c10f5b8326c7befbac0e593cfd16fd73690b8e5ef4fd9229b141c798d2ba69c",
+    "certificate_hash": "91364f2ee042225a19781e4bd5bb5c8e0e33902bf5ec344627327157b32654a0"
+  },
+  {
+    "certificate_id": "FMN-00005",
+    "patient_id": "P15213",
+    "issued_at_utc": "2026-10-17T08:20:13+00:00",
+    "slice_retrained": 3,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.188,
+    "audit_before": {
+      "patient_id": "P15213",
+      "detected": true,
+      "memory_score": 7.09,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 3
+    },
+    "audit_after": {
+      "patient_id": "P15213",
+      "detected": false,
+      "memory_score": 0.69,
+      "stands_out_vs_outsiders_pct": 19.2,
+      "suspected_slice": 7
+    },
+    "accuracy_before": 0.7284,
+    "accuracy_after": 0.728,
+    "model_hash_before": "6b53e37d0e63cabf054d0d748732aab1b32597d45de62d200414abec6b0ab41b",
+    "model_hash_after": "38f4d92ee8b9f652f5530aa60c27f389f47519c71a8de24d1d4b699ce1a2a484",
+    "previous_certificate_hash": "91364f2ee042225a19781e4bd5bb5c8e0e33902bf5ec344627327157b32654a0",
+    "certificate_hash": "c7e419a2139146af1e06147cfa4066787383ab9311f46ff20fc6483f09bc78be"
+  },
+  {
+    "certificate_id": "FMN-00006",
+    "patient_id": "P10313",
+    "issued_at_utc": "2026-10-17T08:20:14+00:00",
+    "slice_retrained": 3,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.176,
+    "audit_before": {
+      "patient_id": "P10313",
+      "detected": true,
+      "memory_score": 5.66,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 3
+    },
+    "audit_after": {
+      "patient_id": "P10313",
+      "detected": false,
+      "memory_score": 0.49,
+      "stands_out_vs_outsiders_pct": 4.26,
+      "suspected_slice": 0
+    },
+    "accuracy_before": 0.728,
+    "accuracy_after": 0.7282,
+    "model_hash_before": "38f4d92ee8b9f652f5530aa60c27f389f47519c71a8de24d1d4b699ce1a2a484",
+    "model_hash_after": "719963f2c7a7af7c972ff4f343e07b9b4b97a73dcfca22e9bffa03067f759d4c",
+    "previous_certificate_hash": "c7e419a2139146af1e06147cfa4066787383ab9311f46ff20fc6483f09bc78be",
+    "certificate_hash": "452f37a3f3d60d7b650765d57caee8ec8adc2108eea11b520c885d1a5582c774"
+  },
+  {
+    "certificate_id": "FMN-00007",
+    "patient_id": "P20775",
+    "issued_at_utc": "2026-10-17T08:20:15+00:00",
+    "slice_retrained": 5,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.185,
+    "audit_before": {
+      "patient_id": "P20775",
+      "detected": true,
+      "memory_score": 6.89,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 5
+    },
+    "audit_after": {
+      "patient_id": "P20775",
+      "detected": false,
+      "memory_score": 0.74,
+      "stands_out_vs_outsiders_pct": 24.42,
+      "suspected_slice": 5
+    },
+    "accuracy_before": 0.7282,
+    "accuracy_after": 0.7282,
+    "model_hash_before": "719963f2c7a7af7c972ff4f343e07b9b4b97a73dcfca22e9bffa03067f759d4c",
+    "model_hash_after": "97f09d3a3716552be326194adb86a396b755ba6d3b5cb337c3cfbdc7b482f547",
+    "previous_certificate_hash": "452f37a3f3d60d7b650765d57caee8ec8adc2108eea11b520c885d1a5582c774",
+    "certificate_hash": "f304bdf3cd4e1533e70dce18368864a1c937e962c2af835ad1fad0a40c49633e"
+  },
+  {
+    "certificate_id": "FMN-00008",
+    "patient_id": "P26600",
+    "issued_at_utc": "2026-10-17T08:20:16+00:00",
+    "slice_retrained": 0,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.184,
+    "audit_before": {
+      "patient_id": "P26600",
+      "detected": true,
+      "memory_score": 5.94,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 0
+    },
+    "audit_after": {
+      "patient_id": "P26600",
+      "detected": false,
+      "memory_score": 0.57,
+      "stands_out_vs_outsiders_pct": 8.9,
+      "suspected_slice": 8
+    },
+    "accuracy_before": 0.7282,
+    "accuracy_after": 0.7276,
+    "model_hash_before": "97f09d3a3716552be326194adb86a396b755ba6d3b5cb337c3cfbdc7b482f547",
+    "model_hash_after": "49e20c20e057145765f8330eb91fb625ec45ad9164a188d469993f6281914ccc",
+    "previous_certificate_hash": "f304bdf3cd4e1533e70dce18368864a1c937e962c2af835ad1fad0a40c49633e",
+    "certificate_hash": "80e4729349a56190213bd2f343d25afb60af109cf17902db8ed4907c48d18c52"
+  },
+  {
+    "certificate_id": "FMN-00009",
+    "patient_id": "P03929",
+    "issued_at_utc": "2026-10-17T08:20:17+00:00",
+    "slice_retrained": 9,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.177,
+    "audit_before": {
+      "patient_id": "P03929",
+      "detected": true,
+      "memory_score": 7.05,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 9
+    },
+    "audit_after": {
+      "patient_id": "P03929",
+      "detected": false,
+      "memory_score": 0.44,
+      "stands_out_vs_outsiders_pct": 2.66,
+      "suspected_slice": 1
+    },
+    "accuracy_before": 0.7276,
+    "accuracy_after": 0.7274,
+    "model_hash_before": "49e20c20e057145765f8330eb91fb625ec45ad9164a188d469993f6281914ccc",
+    "model_hash_after": "d8e8bc536257a4480fbc8dfdd796542137721d248c4935f796f82684b48c1a3a",
+    "previous_certificate_hash": "80e4729349a56190213bd2f343d25afb60af109cf17902db8ed4907c48d18c52",
+    "certificate_hash": "73f4e3eeaa29afc47bd0b8a909c34bc656778e45b0ebc1a294cbc0f2cc560b29"
+  },
+  {
+    "certificate_id": "FMN-00010",
+    "patient_id": "P22387",
+    "issued_at_utc": "2026-10-17T08:20:19+00:00",
+    "slice_retrained": 7,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.183,
+    "audit_before": {
+      "patient_id": "P22387",
+      "detected": true,
+      "memory_score": 6.45,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 7
+    },
+    "audit_after": {
+      "patient_id": "P22387",
+      "detected": false,
+      "memory_score": 0.89,
+      "stands_out_vs_outsiders_pct": 42.34,
+      "suspected_slice": 1
+    },
+    "accuracy_before": 0.7274,
+    "accuracy_after": 0.7272,
+    "model_hash_before": "d8e8bc536257a4480fbc8dfdd796542137721d248c4935f796f82684b48c1a3a",
+    "model_hash_after": "0b170ae03997fcf09fb07848c99fc210b5178e7a971cef5234467954a3937db6",
+    "previous_certificate_hash": "73f4e3eeaa29afc47bd0b8a909c34bc656778e45b0ebc1a294cbc0f2cc560b29",
+    "certificate_hash": "04cce3035fbc4869c21378fc297bcba281b7721ea9e3bac701221874b13dd957"
+  },
+  {
+    "certificate_id": "FMN-00011",
+    "patient_id": "P05751",
+    "issued_at_utc": "2026-10-17T08:20:20+00:00",
+    "slice_retrained": 1,
+    "slice_records_before": 2998,
+    "slice_records_after": 2997,
+    "retrain_seconds": 0.186,
+    "audit_before": {
+      "patient_id": "P05751",
+      "detected": true,
+      "memory_score": 5.96,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 1
+    },
+    "audit_after": {
+      "patient_id": "P05751",
+      "detected": false,
+      "memory_score": 0.55,
+      "stands_out_vs_outsiders_pct": 7.48,
+      "suspected_slice": 9
+    },
+    "accuracy_before": 0.7272,
+    "accuracy_after": 0.7276,
+    "model_hash_before": "0b170ae03997fcf09fb07848c99fc210b5178e7a971cef5234467954a3937db6",
+    "model_hash_after": "ccb758309377bbc3ee2e508a7e05cec3f39caad675257520468099fdcb02d32c",
+    "previous_certificate_hash": "04cce3035fbc4869c21378fc297bcba281b7721ea9e3bac701221874b13dd957",
+    "certificate_hash": "acc69e2bef6781243da40f6ab80e7df11948885658aac4176dfee359e64af0d3"
+  },
+  {
+    "certificate_id": "FMN-00012",
+    "patient_id": "P02206",
+    "issued_at_utc": "2026-10-17T08:20:21+00:00",
+    "slice_retrained": 6,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.186,
+    "audit_before": {
+      "patient_id": "P02206",
+      "detected": true,
+      "memory_score": 5.37,
+      "stands_out_vs_outsiders_pct": 99.98,
+      "suspected_slice": 6
+    },
+    "audit_after": {
+      "patient_id": "P02206",
+      "detected": false,
+      "memory_score": 0.38,
+      "stands_out_vs_outsiders_pct": 1.12,
+      "suspected_slice": 1
+    },
+    "accuracy_before": 0.7276,
+    "accuracy_after": 0.7266,
+    "model_hash_before": "ccb758309377bbc3ee2e508a7e05cec3f39caad675257520468099fdcb02d32c",
+    "model_hash_after": "860e7d0163f789c020f55c336ca56a2f295e1f10afe0663ffd392c0b8ad538ef",
+    "previous_certificate_hash": "acc69e2bef6781243da40f6ab80e7df11948885658aac4176dfee359e64af0d3",
+    "certificate_hash": "e84feb94bc639597831f65ebacd33cc46b21a5640cd35eb6a59498f435b81f99"
+  },
+  {
+    "certificate_id": "FMN-00013",
+    "patient_id": "P28741",
+    "issued_at_utc": "2026-10-17T08:20:22+00:00",
+    "slice_retrained": 1,
+    "slice_records_before": 2997,
+    "slice_records_after": 2996,
+    "retrain_seconds": 0.216,
+    "audit_before": {
+      "patient_id": "P28741",
+      "detected": true,
+      "memory_score": 5.22,
+      "stands_out_vs_outsiders_pct": 99.98,
+      "suspected_slice": 1
+    },
+    "audit_after": {
+      "patient_id": "P28741",
+      "detected": false,
+      "memory_score": 1.09,
+      "stands_out_vs_outsiders_pct": 64.18,
+      "suspected_slice": 9
+    },
+    "accuracy_before": 0.7266,
+    "accuracy_after": 0.727,
+    "model_hash_before": "860e7d0163f789c020f55c336ca56a2f295e1f10afe0663ffd392c0b8ad538ef",
+    "model_hash_after": "0fa29723d7b0376c9e3a119e435e21d099f68996ee79d15d363464952a4f526d",
+    "previous_certificate_hash": "e84feb94bc639597831f65ebacd33cc46b21a5640cd35eb6a59498f435b81f99",
+    "certificate_hash": "64b2c9e97e6ac87fec0e585dc5a300988a88bf7d306cc78fa4e50966bc37e5c6"
+  },
+  {
+    "certificate_id": "FMN-00014",
+    "patient_id": "P25558",
+    "issued_at_utc": "2026-10-17T08:20:23+00:00",
+    "slice_retrained": 8,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.205,
+    "audit_before": {
+      "patient_id": "P25558",
+      "detected": true,
+      "memory_score": 6.78,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 8
+    },
+    "audit_after": {
+      "patient_id": "P25558",
+      "detected": false,
+      "memory_score": 0.7,
+      "stands_out_vs_outsiders_pct": 20.9,
+      "suspected_slice": 2
+    },
+    "accuracy_before": 0.727,
+    "accuracy_after": 0.7278,
+    "model_hash_before": "0fa29723d7b0376c9e3a119e435e21d099f68996ee79d15d363464952a4f526d",
+    "model_hash_after": "7c61c01aa3033ab80da0bfe451d955087b33943934218200cf2dde8855048a9c",
+    "previous_certificate_hash": "64b2c9e97e6ac87fec0e585dc5a300988a88bf7d306cc78fa4e50966bc37e5c6",
+    "certificate_hash": "9e72695c939025581905e91868fe32d92fa2e8e4033125864f9e53305a4c3ef7"
+  },
+  {
+    "certificate_id": "FMN-00015",
+    "patient_id": "P22974",
+    "issued_at_utc": "2026-10-17T08:20:24+00:00",
+    "slice_retrained": 4,
+    "slice_records_before": 3000,
+    "slice_records_after": 2999,
+    "retrain_seconds": 0.173,
+    "audit_before": {
+      "patient_id": "P22974",
+      "detected": true,
+      "memory_score": 6.52,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 4
+    },
+    "audit_after": {
+      "patient_id": "P22974",
+      "detected": false,
+      "memory_score": 1.13,
+      "stands_out_vs_outsiders_pct": 67.9,
+      "suspected_slice": 4
+    },
+    "accuracy_before": 0.7278,
+    "accuracy_after": 0.7284,
+    "model_hash_before": "7c61c01aa3033ab80da0bfe451d955087b33943934218200cf2dde8855048a9c",
+    "model_hash_after": "722c1f6e3647187507e2850f85c1557b8e8bbec5959b6464f69715a7662c0497",
+    "previous_certificate_hash": "9e72695c939025581905e91868fe32d92fa2e8e4033125864f9e53305a4c3ef7",
+    "certificate_hash": "6b14e6ae1cb0168428245303a3ed1d6013f30d4481f44737cc40f0750dc48602"
+  },
+  {
+    "certificate_id": "FMN-00016",
+    "patient_id": "P11036",
+    "issued_at_utc": "2026-10-17T08:20:25+00:00",
+    "slice_retrained": 6,
+    "slice_records_before": 2998,
+    "slice_records_after": 2997,
+    "retrain_seconds": 0.178,
+    "audit_before": {
+      "patient_id": "P11036",
+      "detected": true,
+      "memory_score": 8.71,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 6
+    },
+    "audit_after": {
+      "patient_id": "P11036",
+      "detected": false,
+      "memory_score": 1.22,
+      "stands_out_vs_outsiders_pct": 74.24,
+      "suspected_slice": 1
+    },
+    "accuracy_before": 0.7284,
+    "accuracy_after": 0.7286,
+    "model_hash_before": "722c1f6e3647187507e2850f85c1557b8e8bbec5959b6464f69715a7662c0497",
+    "model_hash_after": "55aa90d8e47e84c94f23ea23fd0cd4fd003848a37107f868e1d8bc570174bda4",
+    "previous_certificate_hash": "6b14e6ae1cb0168428245303a3ed1d6013f30d4481f44737cc40f0750dc48602",
+    "certificate_hash": "60fcc269d6a0af88b7ae3df65fe197161ab7a96c3c06785ad8f27aca73c05cf8"
+  },
+  {
+    "certificate_id": "FMN-00017",
+    "patient_id": "P11767",
+    "issued_at_utc": "2026-10-17T08:20:26+00:00",
+    "slice_retrained": 7,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.203,
+    "audit_before": {
+      "patient_id": "P11767",
+      "detected": true,
+      "memory_score": 7.47,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 7
+    },
+    "audit_after": {
+      "patient_id": "P11767",
+      "detected": false,
+      "memory_score": 0.82,
+      "stands_out_vs_outsiders_pct": 33.76,
+      "suspected_slice": 4
+    },
+    "accuracy_before": 0.7286,
+    "accuracy_after": 0.7302,
+    "model_hash_before": "55aa90d8e47e84c94f23ea23fd0cd4fd003848a37107f868e1d8bc570174bda4",
+    "model_hash_after": "672aa9fb46e42992f5b67c227e0362d2ddfbe01ad4803ff84e3439df7860f0e1",
+    "previous_certificate_hash": "60fcc269d6a0af88b7ae3df65fe197161ab7a96c3c06785ad8f27aca73c05cf8",
+    "certificate_hash": "80dfe16a80711ae135e75271272ab06dcd11e747553321c61c2654af7003d7bf"
+  },
+  {
+    "certificate_id": "FMN-00018",
+    "patient_id": "P12858",
+    "issued_at_utc": "2026-10-17T08:20:28+00:00",
+    "slice_retrained": 8,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.178,
+    "audit_before": {
+      "patient_id": "P12858",
+      "detected": true,
+      "memory_score": 7.61,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 8
+    },
+    "audit_after": {
+      "patient_id": "P12858",
+      "detected": false,
+      "memory_score": 0.96,
+      "stands_out_vs_outsiders_pct": 50.94,
+      "suspected_slice": 4
+    },
+    "accuracy_before": 0.7302,
+    "accuracy_after": 0.7302,
+    "model_hash_before": "672aa9fb46e42992f5b67c227e0362d2ddfbe01ad4803ff84e3439df7860f0e1",
+    "model_hash_after": "ab624d02f5325d3618ac8ae929d4c35e6d79dc17c71462735f2cbbe419b6473f",
+    "previous_certificate_hash": "80dfe16a80711ae135e75271272ab06dcd11e747553321c61c2654af7003d7bf",
+    "certificate_hash": "ceca2e22c3d63b8f240897357068b108f337bd79cb34b66e396cde0f3ecfa9b4"
+  },
+  {
+    "certificate_id": "FMN-00019",
+    "patient_id": "P29544",
+    "issued_at_utc": "2026-10-17T08:20:29+00:00",
+    "slice_retrained": 4,
+    "slice_records_before": 2999,
+    "slice_records_after": 2998,
+    "retrain_seconds": 0.179,
+    "audit_before": {
+      "patient_id": "P29544",
+      "detected": true,
+      "memory_score": 4.82,
+      "stands_out_vs_outsiders_pct": 99.96,
+      "suspected_slice": 4
+    },
+    "audit_after": {
+      "patient_id": "P29544",
+      "detected": false,
+      "memory_score": 1.58,
+      "stands_out_vs_outsiders_pct": 91.16,
+      "suspected_slice": 8
+    },
+    "accuracy_before": 0.7302,
+    "accuracy_after": 0.7292,
+    "model_hash_before": "ab624d02f5325d3618ac8ae929d4c35e6d79dc17c71462735f2cbbe419b6473f",
+    "model_hash_after": "f8541daac4eed0438aceadaa8ba0bdcb0acb515c0052cc24154ad92650d80dd1",
+    "previous_certificate_hash": "ceca2e22c3d63b8f240897357068b108f337bd79cb34b66e396cde0f3ecfa9b4",
+    "certificate_hash": "03d081374c32bf4264c21351278068b60ced5625d4261e0d9f00372f2fddee3b"
+  },
+  {
+    "certificate_id": "FMN-00020",
+    "patient_id": "P27206",
+    "issued_at_utc": "2026-10-17T08:20:30+00:00",
+    "slice_retrained": 6,
+    "slice_records_before": 2997,
+    "slice_records_after": 2996,
+    "retrain_seconds": 0.185,
+    "audit_before": {
+      "patient_id": "P27206",
+      "detected": true,
+      "memory_score": 5.81,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 6
+    },
+    "audit_after": {
+      "patient_id": "P27206",
+      "detected": false,
+      "memory_score": 1.02,
+      "stands_out_vs_outsiders_pct": 57.0,
+      "suspected_slice": 5
+    },
+    "accuracy_before": 0.7292,
+    "accuracy_after": 0.7302,
+    "model_hash_before": "f8541daac4eed0438aceadaa8ba0bdcb0acb515c0052cc24154ad92650d80dd1",
+    "model_hash_after": "b0b6ea78d14fdd5e97b79886c16f94c2e0b94d25ec3f112f0a9502e61ecc01be",
+    "previous_certificate_hash": "03d081374c32bf4264c21351278068b60ced5625d4261e0d9f00372f2fddee3b",
+    "certificate_hash": "6aa59eb37999d9f2a1859e2822ca7321fd903b3b0c69e6443fb64034ff460a65"
+  },
+  {
+    "certificate_id": "FMN-00021",
+    "patient_id": "P23381",
+    "issued_at_utc": "2026-10-17T08:20:31+00:00",
+    "slice_retrained": 1,
+    "slice_records_before": 2996,
+    "slice_records_after": 2995,
+    "retrain_seconds": 0.198,
+    "audit_before": {
+      "patient_id": "P23381",
+      "detected": true,
+      "memory_score": 6.14,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 1
+    },
+    "audit_after": {
+      "patient_id": "P23381",
+      "detected": false,
+      "memory_score": 0.92,
+      "stands_out_vs_outsiders_pct": 46.66,
+      "suspected_slice": 2
+    },
+    "accuracy_before": 0.7302,
+    "accuracy_after": 0.7306,
+    "model_hash_before": "b0b6ea78d14fdd5e97b79886c16f94c2e0b94d25ec3f112f0a9502e61ecc01be",
+    "model_hash_after": "d7834e63aac2d2f33430d29cdc587aef8e52e4cc1d44fdf3ba06c2ae4a6030b7",
+    "previous_certificate_hash": "6aa59eb37999d9f2a1859e2822ca7321fd903b3b0c69e6443fb64034ff460a65",
+    "certificate_hash": "16906e9775f64d6cc09ab3a5388493071c94ca5d4aec7eabdbb087ac406aed3f"
+  },
+  {
+    "certificate_id": "FMN-00022",
+    "patient_id": "P26068",
+    "issued_at_utc": "2026-10-17T08:25:48+00:00",
+    "slice_retrained": 8,
+    "slice_records_before": 2998,
+    "slice_records_after": 2997,
+    "retrain_seconds": 0.188,
+    "audit_before": {
+      "patient_id": "P26068",
+      "detected": true,
+      "memory_score": 6.36,
+      "stands_out_vs_outsiders_pct": 100.0,
+      "suspected_slice": 8
+    },
+    "audit_after": {
+      "patient_id": "P26068",
+      "detected": false,
+      "memory_score": 0.96,
+      "stands_out_vs_outsiders_pct": 51.2,
+      "suspected_slice": 6
+    },
+    "accuracy_before": 0.7306,
+    "accuracy_after": 0.7284,
+    "model_hash_before": "d7834e63aac2d2f33430d29cdc587aef8e52e4cc1d44fdf3ba06c2ae4a6030b7",
+    "model_hash_after": "7d8d96712a3260644805f6e9af3f337b842d68c7ddad9d6629bfe19f750ee665",
+    "previous_certificate_hash": "16906e9775f64d6cc09ab3a5388493071c94ca5d4aec7eabdbb087ac406aed3f",
+    "certificate_hash": "3856b1759f6631a960e3598060befe5411c8b84d146c8ea4bd3c7d8a52d6a7c9"
+  }
+]
